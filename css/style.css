@@ -1,0 +1,92 @@
+/* @import url("../fonts/fonts.css");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+p {
+  color: #555555;
+  font-family: RobotoSlab;
+  font-weight: 400;
+}
+
+#start {
+  height: 770px;
+  background-image: url(../img/star-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#start .container {
+  padding: 0px;
+}
+
+nav {
+  height: 103px;
+  padding: 0 !important;
+}
+
+#start .main_link {
+  padding-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  padding: 0px !important;
+  margin-left: 33px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff !important;
+}
+
+h1 {
+  margin-top: 210px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#start p {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.btn-outline-light {
+  margin-top: 30px;
+  width: 180px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+#services {
+  height: 578px;
+  background-color: #ffffff;
+}
+
+#services h2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+#services p {
+  font-size: 14px;
+}
