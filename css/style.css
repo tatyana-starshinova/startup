@@ -30,7 +30,7 @@ h2 {
   padding: 0px;
 }
 
-nav {
+#start nav {
   height: 103px;
   padding: 0 !important;
 }
@@ -43,7 +43,7 @@ nav {
   color: #ffffff !important;
 }
 
-.nav-link {
+#start .nav-link {
   padding: 0px !important;
   margin-left: 33px;
   font-family: Montserrat;
@@ -69,7 +69,7 @@ h1 {
   color: #ffffff;
 }
 
-.btn-outline-light {
+#start .btn-outline-light {
   margin-top: 33px;
   width: 180px;
   height: 50px;
@@ -159,3 +159,106 @@ h1 {
   font-size: 14px;
 }
 
+/* <!--================ About us Section End =================--> */
+
+/* <!--================ Latest Works Section Start =================--> */
+
+#latest-works {
+  height: 1281px;
+  background-color: #ffffff;
+}
+
+#latest-works h2 {
+  margin-top: 95px;
+  margin-bottom: 47px;
+}
+
+#latest-works .nav-link {
+  font-family: RobotoSlab;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #555555;
+}
+
+#latest-works .nav-link:hover {
+  color: #c0301c;
+}
+
+.hair-dresser {
+  background-image: url(../img/hier_pic.png);
+  width: 360px;
+  height: 320px;
+}
+
+.red-block {
+  visibility: hidden;
+  width: 360px;
+  height: 320px;
+}
+
+.hair-dresser:hover .red-block {
+  visibility: visible;
+  opacity: 0.7;
+  background-color: #c0301c;
+}
+
+#latest-works h3 {
+  padding-top: 103px;
+  padding-bottom: 17px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#latest-works h4 {
+  padding-bottom: 27px;
+  font-family: RobotoSlab;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#latest-works .btn-outline-light {
+  margin: 0px;
+  width: 100px;
+  height: 38px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 0px !important;
+  font-family: RobotoSlab;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #c0301c;
+  text-transform: uppercase;
+}
+
+.bird {
+  background-image: url(../img/bird.png);
+  width: 360px;
+  height: 320px;
+}
+
+.bird:hover .red-block {
+  visibility: visible;
+  opacity: 0.7;
+  background-color: #c0301c;
+}
+
+.pencil {
+  background-image: url(../img/pencil.png);
+  width: 360px;
+  height: 320px;
+}
+
+.pencil:hover .red-block {
+  visibility: visible;
+  opacity: 0.7;
+  background-color: #c0301c;
+}
